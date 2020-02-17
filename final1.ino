@@ -13,13 +13,10 @@
 #define MESSZ                  240          // Max number of characters in JSON message string
 #define IR_SEND_PIN 12
 
-
-//#define WIFI_SSID "WesternDigital"
-//#define WIFI_PASS "asdfghjkl"
 #define MQTT_HOST "postman.cloudmqtt.com"
 #define MQTT_PORT 18822
-#define MQTT_USER "awxdqvyu"
-#define MQTT_PASS "9hjfhRu2wUVy"
+#define MQTT_USER "username"
+#define MQTT_PASS "password"
 #define MQTT_CLIENT_ID "daikinremote"
 #define MQTT_STATUS_CHANNEL "stat/daikin"
 #define MQTT_COMMAND_CHANNEL "cmnd/daikin/#" // dont miss the # at the end!
